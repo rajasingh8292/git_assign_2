@@ -1,0 +1,36 @@
+1. How to check if git is available on your system?
+Ans) You can check whether Git is installed and what version you are using by opening up a terminal window in Linux or Mac, or a command prompt window in Windows,
+     and typing the following command: git --version.
+
+2) How to initialize a new git repository?
+Ans) 1.Create a new repository on GitHub.com. 
+     2.Open TerminalTerminalGit Bash.
+     3.Change the current working directory to your local project.
+     4.Use the init command to initialize the local directory as a Git repository.
+     5.Add the files in your new local repository. 
+     6.Commit the files that you've staged in your local repository.
+
+3) How to tell git about your name and email?
+Ans) The Username :- git config --global user.name "<your_username>"
+     The Email :- git config --global user.email "<your_email>"
+
+4) How to add a file to the staging area?
+Ans) Add files to the staging area by using the "git add" command and passing necessary options. Commit files to the local repository using the "git commit -m <message>" command. 
+
+5) How to remove a file from the staging area?
+Ans) Removing stuff with git: just remove any file, remove files from the staging area, how to remove files that were not supposed to be added, and how to remove everything.
+ $ git rm <file-name>
+ $ git commit -m "Remove old file"
+
+6) How to make a commit?
+Ans) To add a Git commit message to your commit, you will use the git commit command followed by the -m flag and then your message in quotes. Adding a Git commit message
+     should look something like this: git commit -m "This is our program.”
+
+7) How to send your changes to a remote repository?
+Ans) To push the commit from the local repo to your remote repositories, run git push -u remote-name branch-name where remote-name is the nickname the local repo uses 
+     for the remote repositories and branch-name is the name of the branch to push to the repository. You only have to use the -u option the first time you push.
+8) What is the difference between clone and pull?
+Ans) git clone is how you get a local copy of an existing repository to work on. git pull (or git fetch + git merge ) is how you update that local copywith new commits 
+from the remote repository.git clone is used for just downloading exactly what is currently working on the remote server repository and savingit in your machine's
+folder where that project is placed. Mostly it is used only when we are going to upload the project for the first time. After that pull is the better option.
+
